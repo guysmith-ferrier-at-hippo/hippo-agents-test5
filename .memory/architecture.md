@@ -127,6 +127,7 @@ hippo-agents-test5/
 - [ASSUME-0002](assumptions/ASSUME-0002-external-identity-provider.md): User authentication delegates to external OIDC provider (unresolved)
 - [ASSUME-0003](assumptions/ASSUME-0003-container-deployment.md): Target environments execute containerized workloads via GitHub Actions (unresolved)
 - [ASSUME-0004](assumptions/ASSUME-0004-test-container-isolation.md): Integration tests execute against containerized mocks without external dependencies (unresolved)
+- [ASSUME-0005](assumptions/ASSUME-0005-hello-world-technical-value.md): Hello World endpoint serves as technical validation (unresolved)
 <!-- assumption-list:end -->
 
 ## Knowledge References

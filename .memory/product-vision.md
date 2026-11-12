@@ -124,3 +124,16 @@ Manual application procedures and non-standard web interfaces cause delays, inpu
 - [WCAG 2.2 Level AA Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [ASSUME-0001: Browser-based access](assumptions/ASSUME-0001-browser-based-access.md)
 - [ASSUME-0002: External OIDC identity provider](assumptions/ASSUME-0002-external-identity-provider.md)
+
+## 13. Value Rule Set
+
+> _The criteria or rules used to evaluate whether features should proceed to development._
+
+- **Primary Value Driver(s)**: Operational reliability, user adoption, and strict compliance.
+- **Strategic Goals Alignment**: Aligns with ensuring secure, reliable, and accessible public services.
+
+| Rule / Criterion | Description | Minimum Threshold for Go |
+|------------------|-------------|--------------------------|
+| Operational Reliability | Impact on system observability and testing | Enhances monitoring or provides technical validation |
+| User Value | Impact on user completion rates or satisfaction | No degradation to user experience |
+| Compliance | Adherence to GDS, WCAG 2.2, and security | 100% compliance |
